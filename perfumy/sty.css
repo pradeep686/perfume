@@ -1,0 +1,107 @@
+body{
+    background-image: url(https://th.bing.com/th/id/OIP.ngZhxZ-oievWwcVINlQZQwHaE7?rs=1&pid=ImgDetMain);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+   
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(35, 36, 36);
+    color:white;
+    padding: 12px;
+    }
+
+li,ul,h1{
+    display: inline-block; 
+    margin-right: 20;
+}
+
+ul{
+    margin-left: 840;
+    padding-left: 10;
+    cursor: pointer;
+    text-decoration: none;/* Remove the underline */
+}
+
+.header{
+      margin-top: 5;
+}
+
+li{
+    color: inherit;/* Inherit the color from the parent element */
+    cursor: pointer; 
+    color:rgb(143, 139, 139);
+}
+li:hover{
+    color: white;
+}
+
+#prd:hover{
+    color:rgba(34, 147, 136, 0.795);
+}
+
+input{
+    width: 300;
+    height: 32;
+    margin-top: 12;
+    text-align: center;
+    border-width: 3;
+    border-color: rgb(6, 243, 231);
+    
+}
+.box{
+    color: white;
+}
+.products{
+    text-align: center;
+    
+}
+.about{
+    text-align: center;
+    color: white;
+    
+}
+.contact{
+    background-color: black;
+    height: 110;
+    color: aliceblue;
+    text-align: center;
+    padding: 30;
+}
+
+
+
+.box{
+   
+    border-style: solid;
+    border-color: black;
+    border-width: 4;
+    display: inline-block;
+    width: 256;
+    padding: 20;
+    margin-top: 15;
+    margin-left: 139;
+}
+
+.button {
+    background-color: #0b4187;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px; /* for CURVE shape EDGE */
+   margin-left: 40;
+}
+
+.button:hover {
+    background-color: #d5c813;
+    transform: translateY(-2px);
+}

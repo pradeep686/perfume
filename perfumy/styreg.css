@@ -1,0 +1,32 @@
+
+body{
+    background-image: url(https://th.bing.com/th/id/OIP.ngZhxZ-oievWwcVINlQZQwHaE7?rs=1&pid=ImgDetMain);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    
+    margin-top: 290;
+}
+
+.button {
+    background-color: #0b4187;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px; /* for CURVE shape EDGE */
+   margin-left: 40;
+}
+
+.button:hover {
+    background-color: #13d547;
+    transform: translateY(-2px);
+}
+
+td{
+    color: white;
+}
